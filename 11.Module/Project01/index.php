@@ -8,7 +8,7 @@ $request = $_SERVER['REQUEST_URI'];
 // Remove the project folder name from the URI (if applicable)
 #$request = str_replace('/my_project', '', $request);
 #$request = str_replace('/EDGE-RUET-CSE-RUETCSEB0103/EDGE-RUET-CSE-RUETCSEB0103/10.Module/my_project', '', $request);
-$request = str_replace('/EDGE-RUET-CSE-RUETCSEB0101/11.Module/Project01', '', $request);
+$request = str_replace('/EDGE-RUET-CSE-RUETCSEB0101/11.Module/Project01/', '', $request);
 
 // Match the requested path
 switch ($request) {
